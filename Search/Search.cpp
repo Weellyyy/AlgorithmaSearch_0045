@@ -25,3 +25,8 @@ void input() {
 		cout << "<" << (i + 1) << "> ";
 	}
 }
+
+void LinearSearch() {
+	char ch;
+	int ctr; // Number of comparassions
+}
