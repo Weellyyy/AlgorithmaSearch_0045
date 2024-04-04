@@ -39,5 +39,6 @@ void LinearSearch() {
 
 		ctr = 0;
 		i = 0; //step 2
+		while (i < n) // Step 3
 	}
 }
