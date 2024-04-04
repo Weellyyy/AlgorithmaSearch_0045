@@ -23,10 +23,17 @@ void input() {
 	for (i = 0; i < n; i++)
 	{
 		cout << "<" << (i + 1) << "> ";
+		cin >> arr[i];
 	}
 }
 
 void LinearSearch() {
 	char ch;
 	int ctr; // Number of comparassions
+	int item;
+
+	do {
+		// Accept the number to be searched
+		cout << "\nEnter the element you want to search: ";
+	}
 }
