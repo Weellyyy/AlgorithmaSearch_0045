@@ -29,7 +29,7 @@ void input() {
 
 void LinearSearch() {
 	char ch;
-	int ctr; // Number of comparassions
+	int ctr; // Number of comparisons
 	int item;
 
 	do {
@@ -57,5 +57,12 @@ void LinearSearch() {
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
 	} while ((ch == 'y') || (ch == 'y'));
+}
+
+void display() {
+	cout << "Array elements are: ";
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
 }
 
